@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat Components should render receiving message 1`] = `
+<div
+  className="d-flex justify-content-start mb-4 received-msg"
+  key="1"
+>
+  <div
+    className="img_cont_msg"
+  />
+  <div
+    className="msg_cotainer"
+  >
+    eje
+    <span
+      className="msg_time"
+    >
+      Mar 21 08:03 AM
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Chat Components should render sent message 1`] = `
+<div
+  className="d-flex justify-content-end sent-msg"
+  key="1"
+  style={
+    Object {
+      "marginBottom": "1.6rem",
+    }
+  }
+>
+  <div
+    className="msg_cotainer_send"
+  >
+    eje
+    <span
+      className="msg_time_send"
+    >
+      Mar 21 08:03 AM
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Group Components should display group list 1`] = `
+<WithStyles(ForwardRef(Grid))
+  className=" group__box"
+  component="div"
+  item={true}
+  key="1"
+  lg={2}
+  md={3}
+  sm={4}
+  style={
+    Object {
+      "paddingBottom": "15px",
+      "position": "relative",
+    }
+  }
+  xs={6}
+>
+  <Link
+    to="/slate/groups/61caa5206d4819a4121b77bd"
+  >
+    <Styled(MuiBox)
+      className="group-interface-firstgroup"
+      component="div"
+    >
+      <Styled(MuiBox)
+        className="group-interface-imgcontainer"
+        component="div"
+      >
+        <NameLogo
+          group="Aman Group"
+        />
+      </Styled(MuiBox)>
+      <Styled(MuiBox)
+        className="group-desc"
+        component="div"
+      >
+        <Styled(MuiBox)
+          className="group-interface-text"
+          component="div"
+        >
+          <h3
+            className="group-interface-h3"
+            style={
+              Object {
+                "textTransform": "capitalize",
+              }
+            }
+          >
+             
+            Aman Group
+          </h3>
+        </Styled(MuiBox)>
+      </Styled(MuiBox)>
+    </Styled(MuiBox)>
+  </Link>
+  <GroupModal
+    groupName="Aman Group"
+    handleChange={[Function]}
+    handleClose={[Function]}
+    isEdit={true}
+    service={[Function]}
+    show={false}
+  />
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`Notification Components should display notification list 1`] = `
+<styled.div
+  component="div"
+>
+  <ForwardRef(Box)
+    className="notification_svg"
+    component="span"
+  >
+    <Styled(GrCircleAlert) />
+  </ForwardRef(Box)>
+  <styled.h3>
+    <div
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "You have been invited to join a group",
+        }
+      }
+    />
+  </styled.h3>
+  <ForwardRef(Box)
+    component="span"
+    paddingLeft={2}
+  />
+  <ForwardRef(Stack)
+    direction="row"
+    marginLeft={2}
+    marginTop={1}
+    spacing={2}
+  >
+    <Styled(Component)
+      onClick={[Function]}
+      style={
+        Object {
+          "background": "#00aaef",
+        }
+      }
+      variant="contained"
+    >
+      Accept
+    </Styled(Component)>
+    <Styled(Component)
+      color="error"
+      onClick={[Function]}
+      variant="outlined"
+    >
+      Reject
+    </Styled(Component)>
+    <styled.div
+      component="div"
+    >
+      <styled.h3>
+        Dec 27 23:12 PM
+      </styled.h3>
+    </styled.div>
+  </ForwardRef(Stack)>
+</styled.div>
+`;
